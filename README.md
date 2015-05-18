@@ -1,5 +1,7 @@
 # Dr. Schollz
 
+[![Build Status](https://travis-ci.org/keighl/drschollz.svg)](https://travis-ci.org/keighl/drschollz)
+
 Easily send asynchronous error notifications from your Golang app via [Mandrill](http://mandrillapp.com).
 
 ### Install
