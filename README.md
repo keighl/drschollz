@@ -1,6 +1,6 @@
 # Dr. Schollz
 
-[![Build Status](https://travis-ci.org/keighl/drschollz.svg)](https://travis-ci.org/keighl/drschollz)
+[![Build Status](https://travis-ci.org/keighl/drschollz.svg)](https://travis-ci.org/keighl/drschollz) [![Coverage Status](https://coveralls.io/repos/keighl/drschollz/badge.svg?branch=master)](https://coveralls.io/r/keighl/drschollz?branch=master)
 
 Easily send asynchronous error notifications from your Golang app via [Mandrill](http://mandrillapp.com).
 
