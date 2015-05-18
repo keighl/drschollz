@@ -44,6 +44,7 @@ func Test_Error_NotRunning(t *testing.T) {
 	err := errors.New("Cheese!")
 	errOut := q.Error(err)
 	expect(t, errOut, err)
+	q.Stop()
 }
 
 //// DELIVER ///////

@@ -11,6 +11,7 @@ func Test_Start_Success(t *testing.T) {
 	expect(t, err, nil)
 	refute(t, q, nil)
 	expect(t, q.Running, true)
+	q.Stop()
 }
 
 func Test_Start_NotEnoughWorkers(t *testing.T) {
