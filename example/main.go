@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/keighl/drschollz"
+	"github.com/seasaltio/drschollz"
 	"errors"
 	"fmt"
 	"net/http"

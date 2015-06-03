@@ -1,12 +1,12 @@
 # Dr. Schollz
 
-[![Build Status](https://travis-ci.org/keighl/drschollz.svg)](https://travis-ci.org/keighl/drschollz) [![Coverage Status](https://coveralls.io/repos/keighl/drschollz/badge.svg?branch=master)](https://coveralls.io/r/keighl/drschollz?branch=master)
+[![Build Status](https://travis-ci.org/seasaltio/drschollz.svg)](https://travis-ci.org/seasaltio/drschollz) [![Coverage Status](https://coveralls.io/repos/seasaltio/drschollz/badge.svg?branch=master)](https://coveralls.io/r/seasaltio/drschollz?branch=master)
 
 Easily send asynchronous error notifications from your Golang app via [Mandrill](http://mandrillapp.com).
 
 ### Install
 
-    go get github.com/keighl/drschollz
+    go get github.com/seasaltio/drschollz
 
 ### Usage
 
@@ -91,8 +91,8 @@ Info:
 Backtrace:
 -------------------------------
 
-/Users/keighl/go/src/github.com/keighl/drschollz/example/main.go:44 main.Posts()
-/Users/keighl/go/src/github.com/keighl/drschollz/example/main.go:27 main.func·001()
+/Users/keighl/go/src/github.com/seasaltio/drschollz/example/main.go:44 main.Posts()
+/Users/keighl/go/src/github.com/seasaltio/drschollz/example/main.go:27 main.func·001()
 /usr/local/go/src/net/http/server.go:1265 net/http.HandlerFunc.ServeHTTP()
 /usr/local/go/src/net/http/server.go:1541 net/http.(*ServeMux).ServeHTTP()
 /usr/local/go/src/net/http/server.go:1703 net/http.serverHandler.ServeHTTP()
