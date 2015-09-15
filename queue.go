@@ -123,7 +123,6 @@ func (q *Queue) Start(workers int) error {
 // Stop will shut down the queue's worker pool. It blocks until all workers are stopped
 func (q *Queue) Stop() {
 	if !q.Running {
-		q.Println("We already stopped!")
 		return
 	}
 	q.Println("Dr. Schollz is closing up shop...")
@@ -135,7 +134,6 @@ func (q *Queue) Stop() {
 	}()
 	wg.Wait()
 	q.Running = false
-	q.Println("Dr. Schollz is out!")
 }
 
 /////////////////
@@ -161,7 +159,6 @@ func (w worker) start() {
 					w.Queue.Println("Wrkr", w.ID, "-> delivered", job.Error)
 				}
 			case wg := <-w.QuitChan:
-				w.Queue.Println("Wrkr", w.ID, "-> quiting")
 				defer wg.Done()
 				return
 			}
